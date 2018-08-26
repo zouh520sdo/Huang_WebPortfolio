@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <!-- Support of foreign character-->
+        <meta charset="utf-8" />
+        
+        <!-- If Compatibility setting. It ensures IE users the latest rendering engine-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        <!-- Get physical width of the mobile device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Name of the website displayed on the broswer tab-->
+        <title>Rubik's Cube Simulation - Huang Zou's Portfolio</title>
+        
+        <!-- Link custon stylesheet to the main layout page -->
+        <link href="style.css" rel="stylesheet">
+        
+        <!-- Link the lastest modified bootstrap style sheet -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Lastest JQuery framework, necessary for using bootstrap's JS plugins -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+        <!-- link the lastest midifed bootstrap JS library -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <h1>Rubik's Cube Simulation (ongoing)- Huang Zou's Portfolio</h1>
+        <h2 class="subtitle"> Introduction </h2>
+        <h3 class="content"> I want to use WebGL and JavaScript to create a simulator of 3 by 3 Rubik’s cube. The program would be able to rotate Rubik's cube like what actual cube does, generate a random distributed cube, and determine whether the cube is recovered or not. This project is only for this ECSE-4750 (Computer Graphics), and will be built on top of WebGL code we had in class.</h3>
+        
+        <h3 class="content"><a href="https://zouh520sdo.github.io/RubikCube/" target="_blank">View on Webpage</a></h3>
+        
+        <h2 class="subtitle">Progress -- 11/15/2017 </h2>
+        <h3 class="content">I wrote a code that can generate 27 small cubes as showed in screenshot. More specifically, I wrote a class for small cube so that I can individually keep track of specific small cube’s position, color, and so on. I also wrote a rough pipeline for rendering 27 small cubes’ positions and colors, camera’s position and projection.</h3>
+
+        <h2 class="subtitle">Progress -- 11/19/2017 </h2>
+        <h3 class="content">Continues work from last report, I change the camera view from orthographic view to perspective view, and Color small cubes in proper way. Also, enable rotation on view by holding mouse and drag.</h3>
+    </body>
+    
+</html>
